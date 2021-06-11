@@ -39,7 +39,7 @@ window.addEventListener("load", function() {
          if (cargoInput <= 10000 && fuelInput >= 10000) {
             document.getElementById("launchStatus").innerHTML = "Shuttle Ready for Launch";
             document.getElementById("launchStatus").style.color = "green";
-            document.getElementById("faultyItems").style.visibility = "hidden";
+            document.getElementById("faultyItems").style.visibility = "visible";
          }
          event.preventDefault();
       }
